@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    
+    <meta name="description" content="المعلومات المتعلقة بالنباتات - نباتات طبية - نباتات زينة"/>
+    <meta name="keyword" content="الصبار , الريحان , العطرة , الألوفيرا"/>
+    <meta name="author" content="khaled"/>
+
+
+    <meta property="og:title" content="عالم النباتات"/>
+    <meta property="og:description" content="صفحة متخصصة بالنباتات وكل ما يتعلق بها"/>
+    <meta property="og:image" content="linkpix2.jpeg"/>
+    <meta property="og:image:width" content="1200"/> <!--600-->
+    <meta property="og:image:heiht" content="630"/> <!--315-->
+    
+    <!--<meta property="og:url" content="رابط الصفحة التي وضعنا لها الميزات للعرض"/>-->
+    <meta property="og:type" content="website"/>
+
+    <!----------------link icon----------------->
+    
+    <link rel="icon" href="logo.png"/>
+    <link rel="shortcut" href="logo.png"/>
+    <link rel="apple-touch-icon" href="logo.png"/>
+
+    <title>About</title>
+
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex; /*الدرس 42*/ /*inline-block كانت*/
+    justify-content: space-evenly;
+    
+
+
+
+    position: fixed;/*sticky يبقى العنصر مكانه لوقت عمل سكرول يصبح مثل فيكسيد*/
+    background-color: #2F5D2FA1;
+    height: 50px;
+    width: inherit;
+    max-width: inherit;
+
+    top: 10px;
+    z-index: 1; /*نستخدمها عند وجود أكثر من عنصر لديهم ميزة فيكسيد
+    العنصر الذي رقمه أعلى يكون هو من يظهر فوق العنصر الأقل رقما*/
+    
+    text-align: center; /*justify تقوم بملئ الفراغ بنهاية السطر في حال لا يتسع للكلمة*/
+    margin: auto; /*أوتو تجعل العنصر بالمنتصف عندما يكون عرضه محدد وليس 100 بالمئة*/
+}
+
+body{
+    width: 100%;
+    text-align: center;
+}
+
+header a{
+    align-self: center;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+footer a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer{
+            
+            width: 350px;
+            height: 100px;
+            color: rgb(65, 65, 101);
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+    
+            
+        }
+        
+p{
+    margin: 30px;
+    text-align: center;
+    color: #000000a1;
+    padding: 20px;
+
+}
+
+section img{
+    width: 300px;
+}
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="about.html">من نحن</a>
+        <a href="vedio.html">فيديو</a>
+        <a href="contact.html">تواصل معنا</a>
+        <a href="home.html">الرئيسية</a>
+    </header>
+
+    <section>
+        <img id="aboutpix" src="aboutback.jpg"/>
+        <img src="aboutus.png"/>
+        <p style="border-bottom: 2px solid #2F5D2FA1;">نهدف لنكون الموسوعة الأكبر و الأكثر ثراء بكل ما يخض المعلومات المتعلقة بالنباتات</p>
+    </section>
+
+    <section>
+        
+    </section>
+
+
+    <center><footer>
+        <fieldset><a id="footertext" href="https://google.com" style="color: green;">أكاديمية شيار</a><legend> تعلم البرمجة مجانا </legend>
+        </fieldset>
+    <br>
+    <a href="home.html" style="color: gray;">العودة للصفحة الرئيسية</a>
+        <p>Designed By [KHALED]</p>
+        
+    </center>
+    </footer>
+
+</body>
+</html>
